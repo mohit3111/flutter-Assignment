@@ -19,7 +19,7 @@ class PrimaryButton extends StatelessWidget {
       height: 48,
       constraints: BoxConstraints(maxWidth: 160),
       child: OutlinedButton(
-        onPressed: () {},
+        onPressed: () {onTap();},
         style: OutlinedButton.styleFrom(
           side: const BorderSide(color: AppColors.primary, width: 1),
           shape: RoundedRectangleBorder(
